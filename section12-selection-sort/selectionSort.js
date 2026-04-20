@@ -1,5 +1,9 @@
 import { swap } from "../util/swap.js";
 
+/**Similar to Bubble Sort, we select the smallest value by checking every value to the right and replace the current with the smallest. Progagates the smallest values at the start each time
+ * @description Selection Sort
+ * @param {number[]} arr - unsorted array of numbers.
+ * @returns {number[]} sorted array of numbers.  */
 const selectionSort = (array) => {
   for (let i = 0; i < array.length; i++) {
     let min = i;
